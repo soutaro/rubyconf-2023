@@ -1,0 +1,17 @@
+module RubyConf
+  class Talk
+    attr_reader title: String
+
+    attr_reader date: Date
+
+    attr_reader description: String
+
+    attr_reader speakers: Array[Speaker]
+
+    def primary_speaker: () -> Speaker
+
+    def secondary_speakers: () -> Array[Speaker]
+
+    def initialize: (title: String, date: Date, description: String, speakers: Array[Speaker]) -> void
+  end
+end

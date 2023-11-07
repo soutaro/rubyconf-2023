@@ -1,0 +1,20 @@
+module RubyConf
+  module Link
+    class Base
+      attr_reader url: String
+
+      def initialize: (url: String) -> void
+    end
+
+    class X < Base
+    end
+
+    class Twitter = X
+
+    class GitHub < Base
+    end
+
+    class Mastdon < Base
+    end
+  end
+end

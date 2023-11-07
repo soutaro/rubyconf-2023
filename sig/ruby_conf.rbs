@@ -1,0 +1,5 @@
+module RubyConf
+  type conference = [Array[Talk], Array[Speaker]]
+
+  def self.load: () -> conference
+end

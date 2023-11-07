@@ -1,0 +1,13 @@
+module RubyConf
+  class Speaker
+    attr_reader name: String
+
+    attr_reader email: String
+
+    attr_reader affiliation: String
+
+    attr_reader description: String
+
+    attr_reader links: Array[Link::Base]
+  end
+end
