@@ -17,5 +17,7 @@ module RubyConf
     def run_help: () -> Integer
 
     def run_speakers: () -> Integer
+
+    def run_talks: () -> Integer
   end
 end

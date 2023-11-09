@@ -11,7 +11,7 @@ module RubyConf
       @stdout = $stdout
     end
 
-    KNOWN_COMMANDS = %w(help speakers)
+    KNOWN_COMMANDS = %w(help speakers talks)
 
     DATA_PATH = Pathname(
       __dir__ #: String
@@ -74,6 +74,10 @@ module RubyConf
       end
 
       0
+    end
+
+    def run_talks
+      raise NotImplementedError.new("Implement #{self.class}##{__method__} in #{__FILE__}")
     end
   end
 end
