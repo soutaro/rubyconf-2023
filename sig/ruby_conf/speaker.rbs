@@ -1,13 +1,24 @@
 module RubyConf
   class Speaker
+    type json = {
+      name: String,
+      tagline: String,
+      description: String,
+      links: Array[Link::json]
+    }
+
     attr_reader name: String
 
-    attr_reader email: String
-
-    attr_reader affiliation: String
+    attr_reader tagline: String
 
     attr_reader description: String
 
     attr_reader links: Array[Link::Base]
+
+    def initialize: (name: String, tagline: String, description: String, links: Array[Link::Base]) -> void
+
+    def self.from_json: (json) -> Speaker
+
+    def match?: (String query) -> bool
   end
 end

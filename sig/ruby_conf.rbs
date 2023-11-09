@@ -1,5 +1,5 @@
 module RubyConf
-  type conference = [Array[Talk], Array[Speaker]]
+  type room = :BALLROOM_A | :BALLROOM_B | :BALLROOM_C
 
-  def self.load: () -> conference
+  def self.room: (Symbol | String) -> room
 end

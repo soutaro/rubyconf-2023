@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH << File.join(__dir__, "../lib")
+
+require "ruby_conf"
+require "ruby_conf/cli"
+
+RubyConf::CLI.new(ARGV.dup).start

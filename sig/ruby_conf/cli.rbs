@@ -1,0 +1,21 @@
+module RubyConf
+  class CLI
+    attr_reader argv: Array[String]
+
+    attr_accessor stdout: IO
+
+    attr_accessor stderr: IO
+
+    def initialize: (Array[String] argv) -> void
+
+    def start: () -> Integer
+
+    KNOWN_COMMANDS: Array[String]
+
+    DATA_PATH: Pathname
+
+    def run_help: () -> Integer
+
+    def run_speakers: () -> Integer
+  end
+end

@@ -15,3 +15,7 @@ path: .gem_rbs_collection
 
 gems:
   - name: date
+  - name: pathname
+  - name: yaml
+  - name: time
+  - name: optparse

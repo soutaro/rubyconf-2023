@@ -1,0 +1,497 @@
+speakers:
+  - name: Aji Slater
+    tagline: Development Team Lead, thoughtbot
+    description: >-
+      Aji started their career as a vaudevillian but in 2015 they traded comedy bits for digital ones, performing with React and Rails instead of elephants.
+      Co-host of The Tightly Coupled Book Club podcast.
+      They might not be Banksy.
+    links: []
+  - name: Yukihiro "Matz" Matsumoto
+    tagline: ""
+    description: >-
+      Yukihiro Matsumoto, also known as Matz, is a Japanese computer scientist and software programmer best known as the chief designer of the Ruby programming language and its original reference implementation, Matz's Ruby Interpreter.
+    links:
+      - type: x
+        username: yukihiro_matz
+  - name: Valerie Woolard
+    tagline: Data Infrastructure Engineer at Heroku
+    description: >-
+      Valerie Woolard works on the data services team at Heroku, where she writes Ruby to manage databases.
+    links:
+      - type: x
+        username: valeriecodes
+      - type: base
+        url: https://ruby.social/@valerie
+  - name: Tim Riley
+    tagline: Core team at Hanami, dry-rb, rom-rb. Principal Engineer at Buildkite.
+    description: >-
+      Tim is a core team member of Hanami, dry-rb and rom-rb and a Principal Engineer at Buildkite.
+      He’s been writing Ruby for over 20 years and still loves it! He works to bring the joy of Ruby to writing real, maintainable apps of all shapes and sizes.
+    links:
+      - type: base
+        url: https://ruby.social/@timriley
+  - name: Soutaro Matsumoto
+    tagline: Ruby committer, Software engineer at Block
+    description: >-
+      Soutaro is a lead Ruby engineer at Block working on static typing for Ruby.
+      He has been developping a type checker for Ruby "Steep" and leading the development of RBS as one of the Ruby core committers.
+    links:
+      - type: base
+        url: https://ruby.social/@soutaro
+  - name: Sharon Steed
+    tagline: ""
+    description: >-
+      Sharon Steed is an international keynote speaker, author and founder of Communilogue, an empathy consultancy.
+      She teaches teams and organizations the key empathy behaviors necessary to retain top talent and improve individual and team performance.
+    links:
+      - type: x
+        username: sharonsteed
+  - name: Saron Yitbarek
+    tagline: ""
+    description: >-
+      Saron Yitbarek is an entrepreneur and founder of CodeNewbie, now owned by DEV.
+      Saron is also the creator of notadesigner.io, a newsletter sharing design bites for developers.
+      She's a developer, speaker, and podcaster.
+      In her talks, she shares stories and lessons she's learned from years of helping new developers transition into tech careers and building developer communities.
+    links:
+      - type: x
+        username: saronyitbarek
+  - name: Samuel Giddins
+    tagline: Principal @ Nerdsniped LLC
+    description: >-
+      Samuel is the lead security engineer for RubyGems and RubyGems.org by day (and sometimes by night, CVEs never sleep).
+      He's been working on Ruby tooling for the past decade, and has shipped hundreds of bugs across RubyGems & Bundler.
+    links:
+      - type: x
+        username: segiddins
+      - type: base
+        url: https://www.linkedin.com/in/segiddins/
+      - type: base
+        url: https://hachyderm.io/@segiddins
+  - name: Puneet Khushwani
+    tagline: Engineering Manager, Coupa Software
+    description: >-
+      The ethos of my career has always been "Never Stop Building".
+      The first part of my near decade long career was a crazy rollercoaster ride where we built several products.
+      In 2020, I joined Coupa & with them I have transitioned to an EM role.
+    links:
+      - type: x
+        username: pkhushwani
+      - type: base
+        url: https://www.linkedin.com/in/puneet-khushwani-01012726/
+  - name: Phil Crissman
+    tagline: I'm a senior software wrangler at Microsoft.
+    description: >-
+      I'm a software developer living in the Seattle area, working at Microsoft.
+      I love Ruby, Functional Programming, learning new programming languages, and thinking about software engineering processes and organizations.
+      I've been programming since 2008.
+    links:
+      - type: x
+        username: philcrissman
+      - type: base
+        url: https://www.linkedin.com/in/philcrissman/
+      - type: base
+        url: https://ruby.social/@philcrissman
+  - name: Paul Reece
+    tagline: Full Stack Developer / Data Analyst
+    description: >-
+      Paul Reece lives in Durham, NC where he is a Full Stack Developer and Data Analyst.
+      He loves Web Development and working with Data.
+      In his free time he enjoys playing guitar, pickleball, and reading.
+    links:
+      - type: x
+        username: paulreece_
+      - type: base
+        url: https://www.linkedin.com/in/paul-reece/
+      - type: base
+        url: https://ruby.social/@paulreece_
+  - name: Noel Rappin
+    tagline: Staff Engineer at Chime Financial, co-author of Programming Ruby
+    description: >-
+      Noel Rappin is a Staff Engineer at Chime Financial.
+      Noel has authored multiple technical books, including "Programming Ruby 3.2" "Modern Front End Development For Rails" and "Rails 5 Test Prescriptions".
+      He also hosted the podcast Tech Done Right.
+      Follow Noel on Mastodon @noelrap@ruby.social, and online at http://www.noelrappin.com.
+    links:
+      - type: x
+        username: noelrap
+      - type: base
+        url: https://www.linkedin.com/in/noelrappin/
+  - name: Murray Steele
+    tagline: Engineering Manager at Cleo, Co-organiser of London Ruby User Group
+    description: >-
+      Engineering Manager by day, co-organiser of the London Ruby User Group (LRUG) by night.
+      I care about encouraging a sense of curiosity and play while programming.
+    links:
+      - type: base
+        url: https://ruby.social/@h-lame
+  - name: Meagan Waller
+    tagline: Senior Software Consultant at Test Double
+    description: >-
+      Meagan, Senior Software Consultant at Test Double, eases engineering pain points, promoting sustainable code delivery.
+      Survivor fan, vim tinkerer, and board game enthusiast outside of work.
+    links:
+      - type: x
+        username: meaganewaller
+      - type: base
+        username: https://linkedin.com/in/meaganewaller
+  - name: Leonardo Sanclemente
+    tagline: Agile Ruby Developer & Team Leader
+    description: >-
+      With over 11 years of expertise in Rails, various DBs, and diverse back and frontend frameworks, Leo Sanclemente works as a Backend Area Manager at Koombea to advocate for good practices, problem-solving, and collaboration in the projects he is in.
+    links:
+      - type: base
+        url: https://www.linkedin.com/in/leonardo-sanclemente/
+  - name: Kevin Newton
+    tagline: Staff Production Engineer at Shopify
+    description: >-
+      Kevin is a Staff Production Engineer of Shopify, based out of Boston, Massachusetts.
+      He's passionate about music, accessibility, and open-source software.
+    links:
+      - type: x
+        username: kddnewton
+  - name: Katya Dreyer-Oren
+    tagline: Software Engineer, Heroku
+    description: >-
+      Katya Dreyer-Oren is a backend software engineer.
+      She has worked for small startups and huge corporations.
+      When she’s not writing code, she sings jazz, bakes chocolate treats, and acts as a human jungle gym for her toddler.
+    links:
+      - type: x
+        username: kdreyeroren
+      - type: base
+        url: https://www.linkedin.com/in/kdreyeroren
+  - name: Joël Quenneville
+    tagline: Principal Developer at thoughtbot
+    description: >-
+      Joël has been writing Ruby for over a decade and is a fan of of the language's focus on developer happiness.
+      He co-hosts the podcast "The Bikeshed" where he and his co-host Stephanie discuss the technical and social issues that surround our craft.
+    links:
+      - type: x
+        username: joelquen
+  - name: Jeremy Evans
+    tagline: Ruby committer
+    description: >-
+      Jeremy Evans is a Ruby committer who focuses on fixing bugs in Ruby.
+      He the lead developer of the Sequel database library, the Roda web toolkit, and many other Ruby libraries.
+      He is the author of "Polished Ruby Programming".
+    links:
+      - type: x
+        username: jeremyevans0
+  - name: Jenny Shen
+    tagline: Senior Developer at Shopify
+    description: >-
+      Jenny is a Senior Developer at Shopify based in Toronto, Canada.
+      As a RubyGems.org maintainer, she works to help secure Ruby’s dependency ecosystem and is passionate about open source.
+    links:
+      - type: x
+        username: jenshenny
+      - type: base
+        url: https://www.linkedin.com/in/jenny-shen-/
+  - name: Jemma Issroff
+    tagline: Ruby Core Committer
+    description: >-
+      Jemma Issroff is a Ruby Core committer who works on Shopify's Ruby Infrastructure team.
+      She is also a co-founder of WNB.rb, a women / non-binary Ruby community, and a co-host on The Ruby on Rails Podcast.
+    links:
+      - type: x
+        username: jemmaissroff
+  - name: Garen Torikian
+    tagline: CTO @ Yetto
+    description: >-
+      I've been a Ruby programmer for close to twenty years now, and it's still my favorite language to think in.
+      I maintain Ruby's Commonmarker implementation, among other OSS projects.
+      Several of my Rust-backed Ruby gems are in use by various companies.
+    links:
+      - type: x
+        username: gjtorikian
+      - type: base
+        url: https://www.linkedin.com/in/gjtorikian/
+  - name: Collin Donnell
+    tagline: Freelance developer and podcaster.
+    description: >-
+      Freelance developer and co-host of the Rooftop Ruby podcast.
+    links:
+      - type: base
+        url: https://linkedin.com/in/collindonnell
+      - type: base
+        url: https://ruby.social/@collin
+  - name: Andy Maleh
+    tagline: Fukuoka Ruby Winner & RailsConf/RubyConf Speaker
+    description: >-
+      Andy Maleh (Lexop) has won a Fukuoka Ruby 2022 Special Award for Glimmer DSL for LibUI after getting judged by Matz, creator of Ruby.
+      He spoke at multiple RubyConfs & RailsConfs.
+      Andy has an MS in SW Eng from DePaul and a BS in Comp Sci from McGill.
+    links:
+      - type: x
+        username: AndyObtiva
+      - type: base
+        url: https://www.linkedin.com/in/andymaleh/
+  - name: André Arko
+    tagline: "@indirect"
+    description: >-
+      André thinks Ruby is pretty neat, and has been building and deploying webapps in Ruby since 2003.
+    links:
+      - type: x
+        username: indirect
+      - type: base
+        url: https://www.linkedin.com/in/andrearko
+      - type: base
+        url: https://fiasco.social/@indirect
+  - name: Alan Ridlehoover
+    tagline: Sr. Engineering Manager @ Cisco Meraki
+    description: >-
+      Passionate software engineer. (I ❤️ Ruby!)
+      Empathetic leader (@ Cisco Meraki).
+      Fallible human.
+      Environmentalist. Feminist. Ally.
+      Swell photographer. Rusty drummer.
+      Loving twins dad and husband.
+      Goofball.
+    links:
+      - type: x
+        username: aridlehoover
+      - type: base
+        url: https://linkedin.com/in/aridlehoover
+      - type: base
+        url: https://ruby.social/@alan
+
+talks:
+  - title: Keynote by Yukihiro "Matz" Matsumoto
+    starts_at: "2023-11-14T09:15:00"
+    duration: 60
+    room: Ballroom A
+    description: >-
+      In this pre-recorded presentation, Matz shares insights into Ruby and answers questions submitted by the Ruby community.
+    speakers:
+      - Yukihiro "Matz" Matsumoto
+  - title: Which Time Is It?
+    starts_at: "2023-11-14T10:30:00"
+    duration: 45
+    room: Ballroom A
+    description: >-
+      Can you add two time values together? Yes. No. Not so fast!
+
+      Reset your clocks and join me on a graphical tour of time itself.
+      You'll discover how "time" is more than a single thing, build intuition around what different operations mean, and get a sense of when some operations are nonsensical.
+      You'll leave with a better mental model for thinking about time and avoiding subtle time-related bugs in your own code.
+    speakers:
+      - Joël Quenneville
+  - title: "Code Firefighting: Saving Your Ruby Apps from Performance Infernos"
+    starts_at: "2023-11-14T10:30:00"
+    duration: 45
+    room: Ballroom B
+    description: >-
+      Join us as we explore the journey of rescuing Ruby applications in peril. Learn how to identify and battle performance bottlenecks, transforming scalability problems into highly responsive and efficient systems.
+      Don't miss this opportunity to equip yourself with the tools to save your apps from performance infernos.
+    speakers:
+      - Leonardo Sanclemente
+  - title: Finding a needle in the haystack - Debugging performance issues
+    starts_at: "2023-11-14T10:30:00"
+    duration: 45
+    room: Ballroom C
+    description: >-
+      What should a developer do if suddenly one day they get assigned to debug a Sev1 performance issue?
+
+      From our experience, sometimes finding the problem itself is very difficult and thus takes a lot of time.
+      In this talk we will talk about some profilers which one can use to get visibility into what’s happening while executing code.
+      These profilers may not always give us the exact root-cause but will always be able to give us directions to debug further.
+
+      To also make things more relatable, as a case-study, we would be using a real problem which our team dealt with recently while upgrading the Ruby version of one of the largest monolith Rails application.
+    speakers:
+      - Puneet Khushwani
+  - title: Popping Into CRuby
+    starts_at: "2023-11-14T11:30:00"
+    duration: 45
+    room: Ballroom A
+    description: >-
+      Ever wondered why a line of Ruby code with no side effects has no performance impact?
+      This talk will explain the concept of "popped" instruction sequences, demystifying how CRuby works behind the scenes to avoid running unnecessary code.
+      We'll delve into parsing, compiling, abstract syntax trees, and instruction sequence.
+      You’ll leave this talk with a deeper understanding of Ruby's inner workings and why they matter.
+    speakers:
+      - Jemma Issroff
+  - title: Get your Data prod ready, Fast, with Ruby Polars!
+    starts_at: "2023-11-14T11:30:00"
+    duration: 45
+    room: Ballroom C
+    description: >-
+      Imagine you receive a CSV of data that has over 500,000 rows and 100 columns.
+      Data is randomly missing in some places, some of the column names are wrong, and you have mixed Data types in some of the columns.
+      Correcting and cleaning that data by hand could take hours.
+      Fear not! There is a better and faster way.
+      We will look into using Ruby Polars, a gem written in Rust with a Ruby API, to wrangle and clean tabular data to get it prod ready.
+      By learning some basic operations used in Polars you can greatly expedite the import process of CSV files and API Data.
+      Whether your goal is to use the Data in an existing application or use it in a Ruby AI/Machine learning project(since cleaning Data is a vital first step in this process), this talk will get you well on your way!
+    speakers:
+      - Paul Reece
+  - title: State of the RubyGems
+    starts_at: "2023-11-14T13:30:00"
+    duration: 45
+    room: Ballroom A
+    description: >-
+      Part history, part state of the union, and part roadmap for community feedback, this talk will cover how Ruby Central came to have an open source team, what we have been doing for the last 8.5 years, highlights from our work in 2023, and a deep dive into the ideas that we would like to get onto our road map.
+      If you want to know more about Ruby Central, RubyGems, or project planning in long-running open source projects, this is the talk for you.
+    speakers:
+      - André Arko
+      - Samuel Giddins
+  - title: Rooftop Ruby Podcast
+    starts_at: "2023-11-14T13:30:00"
+    duration: 45
+    room: Ballroom C
+    description: ""
+    speakers:
+      - Collin Donnell
+  - title: Re-interpreting Data
+    starts_at: "2023-11-14T14:30:00"
+    duration: 45
+    room: Ballroom A
+    description: >-
+      A talk about turning data into other data. Not particularly useful data, but imagine if you could listen to a jpeg, or see what an executable file looked like, or turn a zip file into an orchestral score?
+
+      Some time ago I stumbled across the header description for WAV files and wondered: what if I took a file and calculated the appropriate WAV file header for it, could I hear my data? Turns out, yes, you can.
+      You probably don’t want to, but you can! In this talk we’ll explore how it works for WAV files, BMP files and MIDI files.
+      Along the way we’ll learn a lot about using ruby to manipulate raw bytes and bits of data, but also we’ll hear a README file, view an executable, and listen to the ruby interpreter itself!
+    speakers:
+      - Murray Steele
+  - title: The Future of Understanding Ruby Code
+    starts_at: "2023-11-14T14:30:00"
+    duration: 45
+    room: Ballroom C
+    description: >-
+      For decades, the Ruby community has been fractured in the way that it parses and understands Ruby code.
+      After countless tools have been developed and person-hours have been invested, we still don't have a common language for understanding Ruby code.
+      No longer! Starting in Ruby 3.3, we will have a single API for parsing and understanding Ruby code.
+      This talk will cover the history of how we got here, what is getting built today, and what you can expect from this exciting future.
+    speakers:
+      - Kevin Newton
+  - title: Demystifying the Ruby package ecosystem
+    starts_at: "2023-11-14T15:30:00"
+    duration: 45
+    room: Ballroom A
+    description: >-
+      A Ruby application is built on a foundation of its gems.
+      But how does a gem get from the package repository to running in your project?
+      RubyGems and Bundler does an excellent job in removing the complexities of gem resolution and installation so developers can focus on building great software.
+      Let’s do a deep dive on how these tools seamlessly manage the dependencies you need to get your project off the ground!
+
+      In this talk, we’ll be taking a look at the inner workings of the Ruby package ecosystem.
+      This includes:
+        - The processes involved in installing gems from a Gemfile
+        - Insights into debugging gems within a Rails application
+        - Ensuring you're selecting the right gems to avoid security risks
+    speakers:
+      - Jenny Shen
+  - title: The Unbreakable Code Whose Breaking Won WWII
+    starts_at: "2023-11-14T15:30:00"
+    duration: 45
+    room: Ballroom C
+    description: >-
+      After the last carrier pigeon but before digital encryption algorithms, there was the Enigma machine.
+      An ingenious piece of pre-atomic age technology encoded German military secrets during World War II, baffling code-breakers with mere physical rotors, and switches, without elliptic curves or private keys.
+
+      Delve into object-oriented programming and bring the Enigma machine back to life with an emulator built in Ruby.
+      Unravel the secrets of this nigh-unbreakable cipher device, witness OO principles unlock its mysteries, discover the power and versatility of the patterns we use as developers and how they mirror the Enigma's inner workings.
+    speakers:
+      - Aji Slater
+  - title: Keynote by Sharon Steed
+    starts_at: "2023-11-14T16:30:00"
+    duration: 60
+    room: Ballroom A
+    description: >-
+      Sharon Steed is the founder of Communilogue, an empathy consultancy that teaches audiences how to make empathy actionable so individuals can better connect with their coworkers; companies can better understand their consumers; and everyone can bring more humanity into the office.
+    speakers:
+      - Sharon Steed
+  - title: Keynote by Saron Yitbarek
+    starts_at: "2023-11-15T09:00:00"
+    duration: 60
+    room: Ballroom A
+    description: >-
+      Saron Yitbarek shares stories and lessons she's learned from years of helping new developers transition into tech careers and building developer communities.
+    speakers:
+      - Saron Yitbarek
+  - title: "Ruby on Rack: The Magic Between Request and Response"
+    starts_at: "2023-11-15T10:15:00"
+    duration: 45
+    room: Ballroom A
+    description: >-
+      Are you ready to embark on an expedition into the core of Ruby web applications? Well, get ready, because it's time to delve into  web development with Rack—the powerhouse that fuels popular Ruby web frameworks like Rails and Sinatra.
+      In this captivating talk, we'll plunge deep into the inner workings of Rack, the unsung hero of web development. We'll uncover its secrets, bask in its versatility, and summon the magic of custom Rack middleware—where session management, authentication, and caching reside. For developers at all levels, this talk offers practical insights and fresh perspectives. Equip yourself with the prowess to wield Rack's middleware magic, making your development journey more efficient and enjoyable.
+    speakers:
+      - Meagan Waller
+  - title: Meet the Pragmatic Bookshelf
+    starts_at: "2023-11-15T10:15:00"
+    duration: 45
+    room: Ballroom B
+    description: >-
+      Pragmatic Bookshelf co-founder Dave Thomas and Pragmatic authors Dave Copeland and Noel Rappin will talk about their latest books -- _Programming Ruby 3.3_ and _Ruby on Rails Background Jobs with Sidekiq_ -- and about the history of Ruby.
+      We'll answer questions about how to get started writing for Pragmatic and how Pragmatic books go from idea to finished.
+      And we'll be raffling off some books. We're looking forward to meeting you!
+    speakers:
+      - Noel Rappin
+  - title: The Second Oldest Bug
+    starts_at: "2023-11-15T10:15:00"
+    duration: 45
+    room: Ballroom C
+    description: >-
+      Historically, calling a method with a very large number of arguments resulted in a core dump.
+      In Ruby 1.9, this was improved to instead raise SystemStackError.
+      In Ruby 2.2, the issue was fixed for methods defined in Ruby.
+      However, in Ruby 3.2, this is still an issue for methods defined in C.
+      This issue was reported as a bug over 12 years ago, and was the second oldest open bug in Ruby's bug tracker.
+      Come learn about stacks, heaps, argument handling during method dispatch, and how we fixed this bug in Ruby 3.3.
+    speakers:
+      - Jeremy Evans
+  - title: Wrapping Rust in Ruby
+    starts_at: "2023-11-15T11:15:00"
+    duration: 45
+    room: Ballroom A
+    description: >-
+      Ruby is slow. Despite improvements over the years, the language will never be as fast as a compiled language.
+      To compensate for this, whenever Ruby developers need to run performance critical code, it's not uncommon for them to interoperate with a library written in C.
+      Dozens of well known gems, such as Nokogiri and Bcrypt, already do this.
+      But with C comes other problems: how can we ensure that our low-level code is safe from memory leaks and other security vulnerabilities?
+      In this talk, I'll introduce the oxidize-rb project, which is a suite of open source tools which makes it possible to call Rust libraries from within Ruby.
+      I'll also demonstrate how simple it is to incorporate Rust code (including Cargo dependencies) into a Ruby gem.
+    speakers:
+      - Garen Torikian
+  - title: "The Secret Ingredient: How To Understand and Resolve Just About Any Flaky Test"
+    starts_at: "2023-11-15T11:15:00"
+    duration: 45
+    room: Ballroom C
+    description: >-
+      Flaky tests are an inscrutable bane.
+      Hard to understand.
+      Annoying.
+      And, so frustrating!
+      My personal nemesis is Daylight Saving Time.
+      I can’t tell you how many times I’ve tripped over it.
+      Let’s just say I was well into the “shame on me” part of that relationship, until I discovered the secret ingredient that nearly all flaky tests have in common.
+      Turns out they only seem inscrutable. It really is possible to understand and resolve just about any flaky test.
+    speakers:
+      - Alan Ridlehoover
+  - title: How Programs Learn, and What Happens After They're Built
+    starts_at: "2023-11-15T13:30:00"
+    duration: 45
+    room: Ballroom A
+    description: >-
+      In 1994, Stewart Brand published a book called "How Buildings Learn, and What Happens After They're Built".
+      As well as a fascinating account of architecture and the history of various buildings and building styles, some ideas from this book were inspirational to the famous "Big Ball of Mud" paper, by Brian Foote and Joseph Yoder.
+
+      Can we learn anything about building software systems from the observations in Brand's book and the Big Ball of Mud paper? Spoiler alert: yes, I think so! Let's talk about them.
+    speakers:
+      - Phil Crissman
+  - title: Livin’ La Vida Hanami
+    starts_at: "2023-11-15T13:30:00"
+    duration: 45
+    room: Ballroom C
+    description: >-
+      Upside, inside out, Hanami 2.0 is out!
+
+      This release brings new levels of polish and power to a framework that you can use for Ruby apps of all shapes and sizes.
+
+      Together we’ll take a first look at Hanami, then build our very own app, and discover how Hanami apps can remain a joy to develop even as they grow.
+
+      _Once you’ve had a taste of it you’ll never be the same!_
+    speakers:
+      - Tim Riley

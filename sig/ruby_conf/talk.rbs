@@ -1,17 +1,32 @@
 module RubyConf
   class Talk
+    type json = {
+      title: String,
+      starts_at: String,
+      duration: Integer,
+      room: String,
+      description: String,
+      speakers: Array[String]
+    }
+
     attr_reader title: String
 
-    attr_reader date: Date
+    attr_reader starts_at: Time
+
+    attr_reader duration: Integer
+
+    attr_reader room: room
 
     attr_reader description: String
 
     attr_reader speakers: Array[Speaker]
 
-    def primary_speaker: () -> Speaker
+    def initialize: (title: String, starts_at: Time, duration: Integer, room: room, description: String, speakers: Array[Speaker]) -> void
 
-    def secondary_speakers: () -> Array[Speaker]
+    def self.from_json: (json) { (String) -> Speaker } -> Talk
 
-    def initialize: (title: String, date: Date, description: String, speakers: Array[Speaker]) -> void
+    def time_range: () -> Range[Time]
+
+    def ends_at: () -> Time
   end
 end

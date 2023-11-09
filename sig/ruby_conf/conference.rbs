@@ -1,0 +1,24 @@
+module RubyConf
+  class Conference
+    type json = {
+      speakers: Array[Speaker::json],
+      talks: Array[Talk::json]
+    }
+
+    attr_reader talks: Array[Talk]
+
+    attr_reader speakers: Array[Speaker]
+
+    def initialize: () -> void
+
+    def self.load: (Pathname) -> Conference
+
+    def load: (json) -> void
+
+    def find_speaker: (String name) -> Speaker?
+
+    def talks_at: (Time) -> Array[Talk]
+
+    def next_talk: (of: Talk, in_room: room) -> Talk?
+  end
+end
