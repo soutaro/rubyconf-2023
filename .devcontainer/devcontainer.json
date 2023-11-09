@@ -1,0 +1,49 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ruby
+{
+	"name": "Ruby",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/ruby:1-3.2",
+
+	"updateContentCommand": "bin/setup",
+
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"steep.jobs": 4,
+				"steep.command": "bundle exec steep",
+				"rubyLsp.rubyVersionManager": "none",
+				"rubyLsp.enabledFeatures": {
+					"codeActions": false,
+					"diagnostics": false,
+					"documentHighlights": false,
+					"documentLink": true,
+					"documentSymbols": true,
+					"foldingRanges": true,
+					"formatting": false,
+					"hover": false,
+					"inlayHint": false,
+					"onTypeFormatting": true,
+					"selectionRanges": true,
+					"semanticHighlighting": true,
+					"completion": false,
+					"codeLens": true,
+					"definition": false,
+					"workspaceSymbol": false,
+					"references": false
+				},
+				"ruby.useLanguageServer": false,
+				"extension-uninstaller.uninstall": [
+					"wingrunr21.vscode-ruby",
+					"rebornix.ruby"
+				]
+			},
+			"extensions": [
+				"soutaro.steep-vscode",
+				"soutaro.rbs-syntax",
+				"shopify.ruby-lsp",
+				"CS50.extension-uninstaller"
+			]
+		}
+	}
+}
