@@ -77,7 +77,37 @@ module RubyConf
     end
 
     def run_talks
-      raise NotImplementedError.new("Implement #{self.class}##{__method__} in #{__FILE__}")
+      query = argv.shift
+
+      conference = Conference.load(DATA_PATH)
+
+      conference.talks.each do |talk|
+        if query
+          next unless talk.match?(query)
+        end
+
+        stdout.puts "#{talk.title} -- starting at #{talk.starts_at} (#{talk.duration}mins)"
+        stdout.puts
+
+        stdout.puts "  Room: #{talk.room}"
+        stdout.puts
+
+        stdout.puts "  Speaker:"
+        talk.speakers.each do |speaker|
+          stdout.puts "    #{speaker.name} -- #{speaker.tagline}"
+        end
+        stdout.puts
+
+        unless talk.description.empty?
+          stdout.puts "  Description:"
+          talk.description.each_line do |line|
+            stdout.puts "    #{line}"
+          end
+          stdout.puts
+        end
+      end
+
+      0
     end
   end
 end

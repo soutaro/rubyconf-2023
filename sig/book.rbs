@@ -1,0 +1,7 @@
+class Book
+  attr_reader title: String
+
+  attr_reader author: String
+
+  def initialize: (title: String, author: String) -> void
+end

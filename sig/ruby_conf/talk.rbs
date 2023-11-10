@@ -28,5 +28,7 @@ module RubyConf
     def time_range: () -> Range[Time]
 
     def ends_at: () -> Time
+
+    def match?: (String) -> bool
   end
 end

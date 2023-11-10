@@ -6,6 +6,7 @@ require "ruby_conf/conference"
 require "ruby_conf/talk"
 require "ruby_conf/speaker"
 require "ruby_conf/link"
+require "ruby_conf/workshop"
 
 module RubyConf
   def self.room(source)

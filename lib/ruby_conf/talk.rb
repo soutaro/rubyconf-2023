@@ -26,5 +26,10 @@ module RubyConf
         speakers: speakers
       )
     end
+
+    def match?(string)
+      regexp = Regexp.compile(Regexp.escape(string), Regexp::IGNORECASE)
+      title.match?(regexp) || description.match?(regexp)
+    end
   end
 end
