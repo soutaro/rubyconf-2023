@@ -495,3 +495,62 @@ talks:
       _Once you’ve had a taste of it you’ll never be the same!_
     speakers:
       - Tim Riley
+
+workshops:
+  - title: Using AI to Plan Your RubyConf Schedule
+    starts_at: "2023-11-13T10:00:00"
+    capacity: 40
+    room: Ballroom B
+    description: >-
+      You’ve heard of tools like OpenAI and ChatGPT, but how can they be useful in practice?
+      In this workshop we’ll walk through making a simple Ruby program to suggest conference talks for you to attend in the coming days based on your interests.
+      In the process, you’ll gain the skills to implement similarity searches in other data sets and familiarity with some Ruby-based tools to use with LLMs.
+      Give your future self the gift of a great conference schedule by signing up for this workshop!
+      No prior experience with AI needed, as long as you know basic Ruby syntax we’ll take it from there.
+    speaker: Valerie Woolard
+  - title: How To Build Desktop Applications in Ruby
+    starts_at: "2023-11-13T10:00:00"
+    capacity: 40
+    room: Ballroom C
+    description: >-
+      Learn how to build desktop applications in Ruby with hands-on code exercises!
+
+      Workshop outline (every step will involve a hands-on exercise or more):
+
+        1. GUI Basics (Controls, Properties, and Listeners):
+        2. MVC (Model-View-Controller) Software Architecture
+        3. Data-Binding and MVP (Model-View-Presenter) Software Architecture
+        4. Advanced Data-Binding
+        5. Area (Canvas) Graphics
+        6. Drag & Drop
+        7. Custom Components (Custom Widgets, Custom Windows, Custom Shapes)
+        8. Application Scaffolding
+
+      This workshop will be conducted using Glimmer DSL for LibUI, the prerequisite-free ruby desktop development cross-platform native GUI gem that won a Fukuoka Ruby 2022 Special Award after getting judged by Matz, the creator of Ruby.
+    speaker: Andy Maleh
+  - title: "A Complete Guide to Moral Perfection: Practical Ethical Thinking for Programmers"
+    starts_at: "2023-11-13T14:00:00"
+    capacity: 40
+    room: Ballroom B
+    description: >-
+      How do you know if your software is good?
+      I’m being deliberately vague.
+      “Good” can mean “well-written,” “performant,” or “has lots of test coverage.”
+      Maybe your product has a “good user experience,” or is “genuinely helpful to your CX team.”
+      Or maybe it means that it’s actually doing meaningful things for the world.
+      I’ll teach you how to figure out how “good” your stuff is by identifying the types of users who will be affected by it and how they will be affected.
+      By the end of this workshop, you’ll know how to figure out if your software is “good,” how to make it better, and how to convince your team to join you.
+    speaker: Katya Dreyer-Oren
+  - title: Ruby coding with RBS and Steep
+    starts_at: "2023-11-13T14:00:00"
+    capacity: 40
+    room: Ballroom C
+    description: >-
+      In this workshop we will learn Ruby coding assisted by RBS-based type checking tools.
+      Start with running the type checker to detect bugs and reading the code base with the help of the editor integration.
+      Try the exercises to implement new features -- designing the API by writing RBS type definitions and coding with rich editor assistance.
+
+      We will provide a sample application, exercises, and devcontainer setup.
+      Type checker setup and RBS type definitions are included.
+      Just start your editor to try type based development experience.
+    speaker: Soutaro Matsumoto
