@@ -27,12 +27,16 @@ You can just push your code and copy-and-paste the URL.
 3. Open `Command Palette` and choose `"Open Folder in Container..."`
 4. Wait for a few minutes to complete downloading/building docker image, installing dependencies, and starting up the extensions
 
+<img width="672" alt="Screenshot 2023-11-12 at 22 10 32" src="https://github.com/soutaro/rubyconf-2023/assets/139089/d0e83923-2e7d-4224-9ec4-68167e28092a">
+
 ### GitHub Codespaces
 
 1. Open your fork repository on browser
 2. `Create a codespace on main`
 3. Wait for a few minutes to complete downloading/building docker image, installing dependencies, and starting up the extensions
 4. Open `Command Palette` and choose `Steep: Restart all`
+
+<img width="546" alt="Screenshot 2023-11-12 at 22 11 37" src="https://github.com/soutaro/rubyconf-2023/assets/139089/30f00563-de76-4548-8e50-f1218af7e265">
 
 ### Running locally
 
