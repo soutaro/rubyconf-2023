@@ -20,7 +20,7 @@ I recommend making a fork of this repository into your account.
 This makes sharing your code easy.
 You can just push your code and copy-and-paste the URL.
 
-### Inside local container (recommended)
+### Option 1. Inside local container (recommended)
 
 1. Clone your repository into your computer
 2. Start VSCode
@@ -29,7 +29,7 @@ You can just push your code and copy-and-paste the URL.
 
 <img width="672" alt="Screenshot 2023-11-12 at 22 10 32" src="https://github.com/soutaro/rubyconf-2023/assets/139089/3d6dda29-613b-447c-9b4d-16f7591327f4">
 
-### GitHub Codespaces
+### Option 2. GitHub Codespaces
 
 1. Open your fork repository on browser
 2. `Create a codespace on main`
@@ -38,7 +38,7 @@ You can just push your code and copy-and-paste the URL.
 
 <img width="546" alt="Screenshot 2023-11-12 at 22 11 37" src="https://github.com/soutaro/rubyconf-2023/assets/139089/9d34f3eb-90d0-4a46-8258-45b42d93b06f">
 
-### Running locally
+### Option 3. Running locally
 
 1. Clone your repository into your computer
 2. `$ bin/setup` in the working copy
