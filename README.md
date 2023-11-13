@@ -38,6 +38,8 @@ You can just push your code and copy-and-paste the URL.
 
 <img width="546" alt="Screenshot 2023-11-12 at 22 11 37" src="https://github.com/soutaro/rubyconf-2023/assets/139089/9d34f3eb-90d0-4a46-8258-45b42d93b06f">
 
+**⚠️⚠️⚠️ Make sure stopping the container after you work on it to avoid unexpectedly spending the core hours. ⚠️⚠️⚠️**
+
 ### Option 3. Running locally
 
 1. Clone your repository into your computer
