@@ -8,6 +8,12 @@
 	"updateContentCommand": "bin/setup",
 
 	"customizations": {
+		"codespaces": {
+      "openFiles": [
+        "lib/rubyconf.rb",
+        "sig/rubyconf.rbs"
+      ]
+    },
 		"vscode": {
 			"settings": {
 				"steep.jobs": 4,
