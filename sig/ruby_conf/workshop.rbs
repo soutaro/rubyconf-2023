@@ -1,32 +1,4 @@
 module RubyConf
-  class Workshop
-    type json = {
-      title: String,
-      speaker: String,
-      starts_at: String,
-      capacity: Integer,
-      room: String,
-      description: String
-    }
-
-    attr_reader title: String
-
-    attr_reader speaker: Speaker
-
-    attr_reader starts_at: Time
-
-    attr_reader capacity: Integer
-
-    attr_reader room: room
-
-    attr_reader descpription: String
-
-    def initialize: (title: String, speaker: Speaker, starts_at: Time, capacity: Integer, room: room, description: String) -> void
-
-    def ends_at: () -> Time
-
-    def time_range: () -> Range[Time]
-
-    def match?: (String) -> bool
-  end
+  # class Workshop
+  # end
 end

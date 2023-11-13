@@ -1,5 +1,4 @@
 module RubyConf
-  class Workshop
-    
-  end
+  # class Workshop
+  # end
 end
