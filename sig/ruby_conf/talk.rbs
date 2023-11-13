@@ -43,6 +43,16 @@ module RubyConf
     #
     def self.from_json: (json) { (String) -> Speaker } -> Talk
 
+    # The range of start and end time
+    #
+    # ```ruby
+    # talk.time_range  # => talk.starts_at...talk.ends_at
+    # ```
+    def time_range: () -> Range[Time]
+
+    # The time when the presentation ends
+    def ends_at: () -> Time
+
     # Returns `true` if given `query` matchees to the presentation
     #
     # ```ruby

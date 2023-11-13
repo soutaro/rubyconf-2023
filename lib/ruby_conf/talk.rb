@@ -27,6 +27,14 @@ module RubyConf
       )
     end
 
+    def time_range
+      starts_at...ends_at
+    end
+
+    def ends_at
+      starts_at + duration
+    end
+
     def match?(string)
       regexp = Regexp.compile(Regexp.escape(string), Regexp::IGNORECASE)
       title.match?(regexp) || description.match?(regexp)
