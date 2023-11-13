@@ -20,7 +20,7 @@ I recommend making a fork of this repository into your account.
 This makes sharing your code easy.
 You can just push your code and copy-and-paste the URL.
 
-### Open the app inside local container
+### Inside local container (recommended)
 
 1. Clone your repository into your computer
 2. Start VSCode
