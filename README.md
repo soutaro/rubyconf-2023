@@ -27,7 +27,7 @@ You can just push your code and copy-and-paste the URL.
 3. Open `Command Palette` and choose `"Open Folder in Container..."`
 4. Wait for a few minutes to complete downloading/building docker image, installing dependencies, and starting up the extensions
 
-<img width="672" alt="Screenshot 2023-11-12 at 22 10 32" src="https://github.com/soutaro/rubyconf-2023/assets/139089/d0e83923-2e7d-4224-9ec4-68167e28092a">
+<img width="672" alt="Screenshot 2023-11-12 at 22 10 32" src="https://github.com/soutaro/rubyconf-2023/assets/139089/3d6dda29-613b-447c-9b4d-16f7591327f4">
 
 ### GitHub Codespaces
 
@@ -36,7 +36,7 @@ You can just push your code and copy-and-paste the URL.
 3. Wait for a few minutes to complete downloading/building docker image, installing dependencies, and starting up the extensions
 4. Open `Command Palette` and choose `Steep: Restart all`
 
-<img width="546" alt="Screenshot 2023-11-12 at 22 11 37" src="https://github.com/soutaro/rubyconf-2023/assets/139089/30f00563-de76-4548-8e50-f1218af7e265">
+<img width="546" alt="Screenshot 2023-11-12 at 22 11 37" src="https://github.com/soutaro/rubyconf-2023/assets/139089/9d34f3eb-90d0-4a46-8258-45b42d93b06f">
 
 ### Running locally
 
@@ -47,3 +47,4 @@ You can just push your code and copy-and-paste the URL.
 5. Open `Command Palette` and choose `Steep: Restart all`
 
 I also recommend installing `Shopify.ruby-lsp` for some Ruby coding features.
+
