@@ -10,8 +10,8 @@
 	"customizations": {
 		"codespaces": {
       "openFiles": [
-        "lib/rubyconf.rb",
-        "sig/rubyconf.rbs"
+        "lib/ruby_conf.rb",
+        "sig/ruby_conf.rbs"
       ]
     },
 		"vscode": {
