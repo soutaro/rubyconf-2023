@@ -1,5 +1,7 @@
 module RubyConf
+  # Talk object represents presentations in RubyConf 2023
   class Talk
+    # The serialization format
     type json = {
       title: String,
       starts_at: String,
@@ -9,26 +11,46 @@ module RubyConf
       speakers: Array[String]
     }
 
+    # The title of the presentation
     attr_reader title: String
 
+    # The time when the presentation starts
     attr_reader starts_at: Time
 
+    # The duration of the presentation in minutes
+    #
+    # ```ruby
+    # talk.duration  # => 40 ==> 40 minutes
+    # talk.duration  # => 60 ==> 60 minutes
+    # ```
+    #
     attr_reader duration: Integer
 
+    # The room of the presentation
     attr_reader room: room
 
+    # The description of the presentation
     attr_reader description: String
 
+    # Array of speakers of the talk
     attr_reader speakers: Array[Speaker]
 
     def initialize: (title: String, starts_at: Time, duration: Integer, room: room, description: String, speakers: Array[Speaker]) -> void
 
+    # Returns a Talk object constructed from given serialized value
+    #
+    # The block converts name of speaker to Speaker object
+    #
     def self.from_json: (json) { (String) -> Speaker } -> Talk
 
-    def time_range: () -> Range[Time]
-
-    def ends_at: () -> Time
-
+    # Returns `true` if given `query` matchees to the presentation
+    #
+    # ```ruby
+    # talk.match?("Ruby")
+    # ```
+    #
+    # The matching is implemented with case-insensitive Regexp against name and description.
+    #
     def match?: (String) -> bool
   end
 end

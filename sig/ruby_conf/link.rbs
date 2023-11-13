@@ -1,11 +1,23 @@
 module RubyConf
+  # Link module defines the links associated to a speaker
+  #
   module Link
+    # The serialization format
     type json = URL::json | X::json | GitHub::json
 
+    # The type of a link
     type t = URL | X | GitHub
 
+    # Translates a json value to link object
+    #
     def self.from_json: (json) -> t
 
+    # Generic URL
+    #
+    # ```ruby
+    # link = Link::URL.new(url: "https://example.com")
+    # ```
+    #
     class URL
       type json = { type: "base", url: String }
 
@@ -15,6 +27,12 @@ module RubyConf
       def initialize: (url: String) -> void
     end
 
+    # X user account
+    #
+    # ```ruby
+    # link = Link::X.new(username: "yukihiro_matz")
+    # ```
+    #
     class X
       type json = { type: "x", username: String }
 
@@ -29,6 +47,12 @@ module RubyConf
 
     class Twitter = X
 
+    # X user account
+    #
+    # ```ruby
+    # link = Link::GitHub.new(username: "matz"")
+    # ```
+    #
     class GitHub
       type json = { type: "github", username: String }
 

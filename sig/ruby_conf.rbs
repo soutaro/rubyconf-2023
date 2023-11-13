@@ -1,5 +1,11 @@
 module RubyConf
+  # The available rooms for conference sessions
+  # 
   type room = :BALLROOM_A | :BALLROOM_B | :BALLROOM_C
 
+  # Translate a Symbol or String to `room`
+  #
+  # Raises exception if unexpected room name is given.
+  #
   def self.room: (Symbol | String) -> room
 end
