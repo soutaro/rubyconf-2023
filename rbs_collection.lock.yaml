@@ -9,6 +9,10 @@ gems:
   version: '0'
   source:
     type: stdlib
+- name: fileutils
+  version: '0'
+  source:
+    type: stdlib
 - name: minitest
   version: '0'
   source:
@@ -33,6 +37,14 @@ gems:
   version: '0'
   source:
     type: stdlib
+- name: rake
+  version: '13.0'
+  source:
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: 25286c51a19927f28623aee3cd36655f902399ba
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
 - name: time
   version: '0'
   source:

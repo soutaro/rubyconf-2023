@@ -4,3 +4,5 @@ gem "rbs", require: false
 gem "steep", require: false
 
 gem "minitest", group: :development
+
+gem "rake"

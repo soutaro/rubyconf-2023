@@ -1,0 +1,18 @@
+module TestHelper : Minitest::Test
+end
+
+class ConferenceTest < Minitest::Test
+  include TestHelper
+end
+
+class SpeakerTest < Minitest::Test
+  include TestHelper
+end
+
+class TalkTest < Minitest::Test
+  include TestHelper
+end
+
+class BookTest < Minitest::Test
+  include TestHelper
+end
