@@ -65,7 +65,7 @@ module RubyConf
               puts "  - X: @#{link.username}"
             when Link::GitHub
               puts "  - GitHub: @#{link.username}"
-            when Link::Base
+            when Link::URL
               puts "  - #{link.url}"
             end
           end

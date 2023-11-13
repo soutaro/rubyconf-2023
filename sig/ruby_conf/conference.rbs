@@ -1,24 +1,59 @@
 module RubyConf
+  # Conference object contains all of the presentations and speakers
+  #
+  # ```ruby
+  # conference = RubyConf::Conference.load(Pathname("data.yaml"))
+  #
+  # conference.talks    # => All of the talks
+  # conference.speakers # => All of the speakers
+  # ```
+  #
   class Conference
+    # The serialization format
     type json = {
       speakers: Array[Speaker::json],
       talks: Array[Talk::json]
     }
 
+    # Array of all talks of the conference
     attr_reader talks: Array[Talk]
 
+    # Array of all speakers of the conference
     attr_reader speakers: Array[Speaker]
 
     def initialize: () -> void
 
-    def self.load: (Pathname) -> Conference
+    # Returns a Conference object that is loaded from YAML file from given path
+    #
+    # ```ruby
+    # Conference.load(Pathname("data.yaml"))   # => Conference
+    # ```
+    #
+    def self.load: (Pathname path) -> Conference
 
+    # Load attributes from given json data
+    #
     def load: (json) -> void
 
+    # Find a speaker with given name
+    #
+    # Returns `nil` if no speaker is found with the name
+    #
     def find_speaker: (String name) -> Speaker?
 
+    # Find presentations at the time
+    #
+    # ```ruby
+    # conference.talks_at(Time.local(2023, 11, 14, 14))
+    # conference.talks_at(Time.local(2023, 11, 20))      #=> []
+    # ```
+    #
     def talks_at: (Time) -> Array[Talk]
 
+    # Find the next talk in the room if present
+    #
+    # Returns `nil` if no talk is coming after the given talk.
+    # 
     def next_talk: (of: Talk, in_room: room) -> Talk?
   end
 end

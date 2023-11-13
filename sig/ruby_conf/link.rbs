@@ -1,33 +1,44 @@
 module RubyConf
   module Link
-    type json = Base::json | X::json | GitHub::json
+    type json = URL::json | X::json | GitHub::json
 
-    def self.from_json: (json) -> Base
+    type t = URL | X | GitHub
 
-    class Base
+    def self.from_json: (json) -> t
+
+    class URL
       type json = { type: "base", url: String }
 
+      # The URL of the link
       attr_reader url: String
 
       def initialize: (url: String) -> void
     end
 
-    class X < Base
+    class X
       type json = { type: "x", username: String }
 
+      # The username of X
       attr_reader username: String
 
       def initialize: (username: String) -> void
+
+      # Returns a full URL of X link
+      def url: () -> String
     end
 
     class Twitter = X
 
-    class GitHub < Base
+    class GitHub
       type json = { type: "github", username: String }
 
+      # The username of GitHub
       attr_reader username: String
 
       def initialize: (username: String) -> void
+
+      # Returns a full URL of GitHub link
+      def url: () -> String
     end
   end
 end

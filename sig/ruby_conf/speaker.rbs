@@ -1,5 +1,8 @@
 module RubyConf
+  # Speaker object represents a speaker of RubyConf 2023
+  #
   class Speaker
+    # The serialization format
     type json = {
       name: String,
       tagline: String,
@@ -7,18 +10,39 @@ module RubyConf
       links: Array[Link::json]
     }
 
+    # Name of the speaker
     attr_reader name: String
 
+    # Tagline of the speaker
+    #
+    # Empty string if it's not given.
+    #
     attr_reader tagline: String
 
+    # Description of the speaker
+    #
+    # Empty string if it's not given.
+    #
     attr_reader description: String
 
-    attr_reader links: Array[Link::Base]
+    # Array of links related to the speaker
+    #
+    attr_reader links: Array[Link::t]
 
-    def initialize: (name: String, tagline: String, description: String, links: Array[Link::Base]) -> void
+    def initialize: (name: String, tagline: String, description: String, links: Array[Link::t]) -> void
 
+    # Returns a Speaker object from json data
+    #
     def self.from_json: (json) -> Speaker
 
+    # Returns `true` if given `query` matchees to the speaker
+    #
+    # ```ruby
+    # speaker.match?("Ruby")
+    # ```
+    #
+    # The matching is implemented with case-insensitive Regexp against name, tagline, and description.
+    #
     def match?: (String query) -> bool
   end
 end

@@ -1,6 +1,6 @@
 module RubyConf
   module Link
-    class Base
+    class URL
       attr_reader :url
 
       def initialize(url:)
@@ -8,23 +8,29 @@ module RubyConf
       end
     end
 
-    class X < Base
+    class X
       attr_reader :username
 
       def initialize(username:)
         @username = username
-        super(url: "https://x.com/#{username}")
+      end
+
+      def url
+        "https://x.com/#{username}"
       end
     end
 
     Twitter = X
 
-    class GitHub < Base
+    class GitHub
       attr_reader :username
 
       def initialize(username:)
         @username = username
-        super(url: "https://github.com/#{username}")
+      end
+
+      def url
+        "https://github.com/#{username}"
       end
     end
 
@@ -33,8 +39,8 @@ module RubyConf
 
       case type
       when "base"
-        # @type var json: Base::json
-        Base.new(url: json[:url])
+        # @type var json: URL::json
+        URL.new(url: json[:url])
       when "x"
         # @type var json: X::json
         X.new(username: json[:username])
